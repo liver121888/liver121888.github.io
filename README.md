@@ -6,6 +6,5 @@
   •
   <a href="https://YoussefRaafatNasry.github.io/portfolYOU/docs/">Documentation</a>
 
-  <a href="https://YoussefRaafatNasry.github.io/portfolYOU"><img src="screenshot.gif"></a>
   <sub><sup>© 2019 portfolYOU, licensed under the <a href="./LICENSE">MIT License</a>.</sup></sub>
 </div>
