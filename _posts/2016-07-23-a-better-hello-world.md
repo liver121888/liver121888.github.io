@@ -5,7 +5,7 @@ style: fill
 color: dark
 description: A different “hello world” to demonstrate language features better.
 ---
-
+<!-- 
 Source: [RICO STA. CRUZ](https://ricostacruz.com/til/a-better-hello-world)
 
 The “Hello world” program is usually the first introduction to any programming language. It looks like this in the C programming language:
@@ -48,4 +48,4 @@ This simple example demonstrates a few more things than printing strings:
 - How to use variables
 - The naming convention for functions (camelCase versus snake_case)
 - String concatenation
-- Comments
+- Comments -->

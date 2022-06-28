@@ -5,7 +5,7 @@ style: border
 color: primary
 description: A quick introduction to the popular JavaScript library.
 ---
-
+<!-- 
 Source: [freecodecamp](https://medium.freecodecamp.org/learn-react-js-in-5-minutes-526472d292f4)
 
 This tutorial will give you a basic understanding of React.js by building a very simple application. I’ll leave out everything which I don’t think is core.
@@ -220,4 +220,4 @@ class Hello extends React.Component {
 
 The **updateMessage** method then calls **this.setState()** which changes the `this.state.message` value. And when we click the button, here’s how that will play out:
 
-Congrats! You now have a very basic understanding of the most important concepts in React.
+Congrats! You now have a very basic understanding of the most important concepts in React. -->
