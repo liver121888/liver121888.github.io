@@ -1,7 +1,11 @@
-- name: Adobe Photoshop
-  percentage: 95
+- name: MATLAB
+  percentage: 85
   color: info
 
-- name: Adobe Illustrator
-  percentage: 90
+- name: SOLIDWORKDS
+  percentage: 80
+  color: light
+
+- name: Latex
+  percentage: 70
   color: success

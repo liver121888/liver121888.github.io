@@ -1,17 +1,20 @@
-- title: Student, Harvard CS
-  from: 2014
-  to: 2018
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-
-- title: Software Engineer, Google, UK
-  from: 2018
+- title: Center for Artificial Intelligence and Advanced Robotics
+  from: Feb 2022
   to: present
-  description: Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-               sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-               Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-               nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-               reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  description: Research Assistant
+               § Topic CHARM-Companion Healthcare Aid Robot Manager
+               § Skills Android, Java, Kotlin, SQLite
+               • Upgrade a reminiscence chatting function using natural language processing techniques and AI-based 
+               image understanding to proactively drive the reminiscence process in social interactions with elderly users.
+               • Connect a smart watch (H2Plus) to the robot using BLE protocol, promoting the functionality of the robot.
+               • Utilize SQLite to synchronize physiological condition data with the database.
+
+- title: Robots and Medical Mechatronics Lab
+  from: Jul 2020
+  to: Mar 2022
+  description: Undergraduate Researcher
+               § Topic Swab Robot, Field Robot
+               § Skills ROS, Python, SolidWorks, MATLAB
+               • Developed a specimen collection robot based on ROS
+               • Improved the specimen collection robot by designing a counterbalance and a lamp holder
+               • Implemented mobile robot techniques in the 2020 Biomechatronics Field Robot Competition
