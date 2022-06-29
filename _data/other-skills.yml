@@ -1,11 +1,11 @@
 - name: MATLAB
   percentage: 85
-  color: info
+  color: primary
 
 - name: SOLIDWORKDS
   percentage: 80
-  color: light
+  color: success
 
 - name: Latex
   percentage: 70
-  color: success
+  color: info
