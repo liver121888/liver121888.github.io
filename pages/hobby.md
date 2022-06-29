@@ -2,7 +2,7 @@
 layout: page
 title: Hobby
 permalink: /hobby/
-weight: 4
+weight: 5
 ---
 
 
