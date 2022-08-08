@@ -1,20 +1,19 @@
 - title: Center for Artificial Intelligence and Advanced Robotics
   from: Feb 2022
   to: present
-  description: Research Assistant
-               § Topic CHARM-Companion Healthcare Aid Robot Manager
-               § Skills Android, Java, Kotlin, SQLite
-               • Upgrade a reminiscence chatting function using natural language processing techniques and AI-based 
-               image understanding to proactively drive the reminiscence process in social interactions with elderly users.
-               • Connect a smart watch (H2Plus) to the robot using BLE protocol, promoting the functionality of the robot.
-               • Utilize SQLite to synchronize physiological condition data with the database.
+  description: Research Assistant <br>
+               § Topic CHARM-Companion Healthcare Aid Robot Manager <br>
+               § Skills Android, Java, Kotlin, SQLite <br>
+               • Used synchronous and asynchronous threading as well as callback functions to improve user experience. <br>
+               • Connect a smart watch (H2Plus) to the robot using BLE protocol, promoting the functionality of the robot. <br>
+               • Utilized SQLite to synchronize multiple users' physiological data to a remote server, and developed a multi-user switching feature on local robots. <br>
 
 - title: Robots and Medical Mechatronics Lab
   from: Jul 2020
   to: Mar 2022
-  description: Undergraduate Researcher
-               § Topic Swab Robot, Field Robot
-               § Skills ROS, Python, SolidWorks, MATLAB
-               • Developed a specimen collection robot based on ROS
-               • Improved the specimen collection robot by designing a counterbalance and a lamp holder
-               • Implemented mobile robot techniques in the 2020 Biomechatronics Field Robot Competition
+  description: Undergraduate Researcher <br>
+               § Topic Swab Robot, Field Robot. <br>
+               § Skills ROS, Python, SolidWorks, MATLAB. <br>
+               • Developed a specimen collection robot based on ROS. <br>
+               • Improved the specimen collection robot by designing a counterbalance and a lamp holder. <br>
+               • Implemented mobile robot techniques in the 2020 Biomechatronics Field Robot Competition. <br>
