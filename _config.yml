@@ -1,9 +1,7 @@
 ### Site Settings ###
 title               : Li-Wei Yang
 description         : >-
-                      Hi, I'm LI-WEI YANG, from Taiwan.
-                      I am an expected bachelor in Biomechatronics Engineering at National Taiwan University.
-                      I am interested in robotics, mostly surgical robots.
+                      An BS student in BME at National Taiwan University, Taiwan. Zeal for autonomous driving industry, robots and simulation. 
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : liver121888/liver121888.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : YoussefRaafatNasry/portfolYOU
