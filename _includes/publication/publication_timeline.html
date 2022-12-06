@@ -1,10 +1,14 @@
 <div class="col mt-4">
   <div class="timeline-body bg-themed">
-    {% for item in site.data.timeline %}
+    {% for item in site.data.publication_timeline %}
       <div class="timeline-item">
         <div class="content">
+          {%- if item.url -%}    
+          <h2><a href="{{ item.url }}">{{ item.title }}</a></h2>
+          {%- else -%}
           <h2>{{ item.title }}</h2>
-          <h6 class="date">{{ item.from }} — {{ item.to }}</h6>
+          {%- endif -%}
+          <h6 class="date">{{ item.location }}</h6>
           <p>{{ item.description }}</p>
         </div>
       </div>

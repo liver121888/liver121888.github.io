@@ -1,7 +1,7 @@
 ### Site Settings ###
 title               : Li-Wei Yang
-description         : >-
-                      An BS student in BME at National Taiwan University, Taiwan. Zeal for autonomous driving industry, robots and simulation. 
+description         : An B.S. graduate in Biomechatronics Engineering from National Taiwan University, Taiwan. <br>
+                      Zeal for robotics, research interests are Simulation, Reinforcement Learning, Computer Vision, and Robotic Motion Planning.
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : liver121888/liver121888.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : YoussefRaafatNasry/portfolYOU
@@ -24,25 +24,25 @@ nav_exclude: # The following paths are excluded from navbar
 author:
   name              : Li-Wei Yang
   image             : img/profile.jpg
-# behance           : your_username
-# dribbble          : your_username
-  email             : liver121888@gmail.com
-  facebook          : david121888
-  github            : liver121888
-# gitlab            : your_username
-  instagram         : liver_1218
-# kaggle            : your_username
   linkedin          : dancedfsk8
-  medium            : liver121888
-# soundcloud        : your_username
-# spotify           : your_username
-# stackoverflow     : your_user_id
-# tumblr            : your_username.tumblr.com
-# twitch            : your_username
-# twitter           : your_username
-# vimeo             : your_username
+  email             : liver121888@gmail.com
+  github            : liver121888
   youtube           : david121888
-# keybase           : your_username
+  medium            : liver121888
+  facebook          : david121888
+  instagram         : liver_1218
+  kaggle            : b07611001
+  gitlab            : liver121888
+  stackoverflow     : 15630120
+  twitter           : yumhxAZJkEOjMHZ
+  # behance           : your_username
+  # dribbble          : your_username
+  # soundcloud        : your_username
+  # spotify           : your_username
+  # tumblr            : your_username.tumblr.com
+  # twitch            : your_username
+  # vimeo             : your_username
+  # keybase           : your_username
 
 
 ### Posts ###
