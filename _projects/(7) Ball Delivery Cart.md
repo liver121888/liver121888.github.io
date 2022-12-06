@@ -15,5 +15,4 @@ The caster wheel sometimes got stuck in the crevices of the tiles, so we designe
 Another version of this project, we use OpenCV to streaming the video:
 [Link](https://youtu.be/2J82phaPbww)
 
-https://github.com/MihajloNesic/jekyll-pdf-embed
-https://github.com/liver121888/NTUBME-2021-MechatronicsIV-FinalProject/blob/master/MechatronicsIV.pdf
+{% pdf "https://github.com/liver121888/NTUBME-2021-MechatronicsIV-FinalProject/blob/master/MechatronicsIV.pdf" %}
