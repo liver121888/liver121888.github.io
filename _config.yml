@@ -89,5 +89,5 @@ exclude:
   - README.md
   - LICENSE
   - "*.log"
-  - tmp/
+exclude: [vendor]
 github: [metadata]
