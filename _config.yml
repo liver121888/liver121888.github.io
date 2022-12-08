@@ -89,5 +89,11 @@ exclude:
   - README.md
   - LICENSE
   - "*.log"
-# exclude: [vendor]
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
 github: [metadata]
