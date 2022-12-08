@@ -14,3 +14,6 @@ The caster wheel sometimes got stuck in the crevices of the tiles, so we designe
 
 Another version of this project, we use OpenCV to streaming the video:
 [Link](https://youtu.be/2J82phaPbww)
+
+
+{% pdf "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf" %}
