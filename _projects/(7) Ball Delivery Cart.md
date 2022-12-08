@@ -16,4 +16,5 @@ Another version of this project, we use OpenCV to streaming the video:
 [Link](https://youtu.be/2J82phaPbww)
 
 
-{% pdf "https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf" %}
+<style> .pdf-embed-wrap-87f43424-063f-4e2e-8f19-5bdf01cb7be0 { display:flex; flex-direction: column; width: 100%; height: 650px; } .pdf-embed-container-87f43424-063f-4e2e-8f19-5bdf01cb7be0 { height: 100%; } .pdf-link-87f43424-063f-4e2e-8f19-5bdf01cb7be0 { background-color: white; text-align: center; border-style: solid; } .pdf-embed-container-87f43424-063f-4e2e-8f19-5bdf01cb7be0 iframe { width: 100%; height: 100%; } </style>
+<div class="pdf-embed-wrap-87f43424-063f-4e2e-8f19-5bdf01cb7be0"> <div class="pdf-link-87f43424-063f-4e2e-8f19-5bdf01cb7be0"> <a href="https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf" target="_blank">View PDF</a> </div> <div class="pdf-embed-container-87f43424-063f-4e2e-8f19-5bdf01cb7be0"> <iframe src="https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf" frameborder="0" allowfullscreen=""></iframe> </div> </div>
