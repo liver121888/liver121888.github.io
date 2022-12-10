@@ -6,6 +6,7 @@ image: ../img/projects/Dyna.png
 description: Using an SVM classifier that recognizes filter-conditioned EMG pattern to control a 5 DoF manipulator.
 ---
 # _Dynability5_
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/r5DFUHN26QI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 [Code](https://github.com/liver121888/NTUME-2021-MMC-FinalProject)

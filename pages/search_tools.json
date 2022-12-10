@@ -1,0 +1,13 @@
+---
+layout: null
+permalink: /search_tools.json
+---
+[
+  {% for post in site.projects %}
+    {
+      "title"    : "{{ post.name | escape }}",
+      "tools"     : "{{ post.tools | join: ', ' }}",
+      "url"      : "{{ post.external_url | default: post.url | relative_url }}",
+    } {% unless forloop.last %},{% endunless %}
+  {% endfor %}
+]

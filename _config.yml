@@ -17,6 +17,7 @@ plugins:
 ### Navbar Settings ###
 nav_exclude: # The following paths are excluded from navbar
   - pages/tags.html
+  - pages/tools.html
   - pages/404.html
   - pages/index.md
 
@@ -76,7 +77,7 @@ defaults:
       path: ""
       type: "projects"
     values:
-      layout: "page"
+      layout: "projectpage"
   - scope:
       path: ""
       type: "posts"
