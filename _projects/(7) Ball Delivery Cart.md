@@ -18,5 +18,4 @@ Another version of this project, we use OpenCV to streaming the video:
 [Link](https://youtu.be/2J82phaPbww)
 
 
-<style> .pdf-embed-wrap-87f43424-063f-4e2e-8f19-5bdf01cb7be0 { display:flex; flex-direction: column; width: 100%; height: 650px; } .pdf-embed-container-87f43424-063f-4e2e-8f19-5bdf01cb7be0 { height: 100%; } .pdf-link-87f43424-063f-4e2e-8f19-5bdf01cb7be0 { background-color: white; text-align: center; border-style: solid; } .pdf-embed-container-87f43424-063f-4e2e-8f19-5bdf01cb7be0 iframe { width: 100%; height: 100%; } </style>
-<div class="pdf-embed-wrap-87f43424-063f-4e2e-8f19-5bdf01cb7be0"> <div class="pdf-link-87f43424-063f-4e2e-8f19-5bdf01cb7be0"> <a href="https://github.com/liver121888/NTUBME-2021-MechatronicsIV-FinalProject/blob/master/docs/MechatronicsIV.pdf" target="_blank">View Source</a> </div> <div class="pdf-embed-container-87f43424-063f-4e2e-8f19-5bdf01cb7be0"> <iframe src="https://liver121888.github.io/NTUBME-2021-MechatronicsIV-FinalProject/MechatronicsIV.pdf" frameborder="0" allowfullscreen=""></iframe> </div> </div>
+<object data="https://liver121888.github.io/NTUBME-2021-MechatronicsIV-FinalProject/MechatronicsIV.pdf" width="100%" height="1000" type='application/pdf'></object>

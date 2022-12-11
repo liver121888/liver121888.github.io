@@ -22,7 +22,7 @@ We could implement a Kalman filter using the model and the measurement input, to
 
 ![Kalman Filter](../img/projects/Kalman Filter/Kal.gif)
 
-However, as the initial angle of the pendulum increases, the linear Kalman Filter would start to lose accuracy.
+However, as the initial angle of the pendulum increases to 55°, the linear Kalman Filter would start to lose accuracy.
 
 ![Nonlinear](../img/projects/Kalman Filter/NP.png)
 

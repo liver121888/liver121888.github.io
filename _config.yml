@@ -11,7 +11,6 @@ open_new_tab        : false # Opens external URLs in new tab (works for posts, p
 ### Plugins ###
 plugins:
   - jemoji
-  - jekyll-pdf-embed
 
 
 ### Navbar Settings ###
@@ -61,7 +60,7 @@ collections:
 
 ### Disqus ###
 disqus:
-  shortname: your-short-name-disqus # Your website Shortname on disqus
+  shortname: li_wei_yang # Your website Shortname on disqus
 
 
 ### Analytics ###
