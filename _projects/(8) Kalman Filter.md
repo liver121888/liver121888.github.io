@@ -1,7 +1,7 @@
 ---
 name: Kalman Filter
 tools: [System Control]
-image: ../img/projects/Kalman Filter/Block.png
+image: ../img/projects/Kalman Filter/Kal.gif
 description: Implement Kalman Filter in MATLAB and Simulink.
 ---
 # _Kalman Filter_
