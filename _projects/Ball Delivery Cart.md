@@ -1,6 +1,6 @@
 ---
 name: Ball Delivery Cart
-tools: [Remote control, Arduino]
+tools: [Remote control, Arduino, Raspberry Pi]
 image: ../img/projects/Ball Delivery Cart.png
 description: Raspberry pi and Arduino based mobile robot.
 ---

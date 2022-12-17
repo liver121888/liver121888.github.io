@@ -1,6 +1,6 @@
 ---
 name: Kalman Filter
-tools: [System Control]
+tools: [System control]
 image: ../img/projects/Kalman Filter/Kal.gif
 description: Implement Kalman Filter in MATLAB and Simulink.
 ---

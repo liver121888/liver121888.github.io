@@ -1,6 +1,6 @@
 ---
 name: Steganography
-tools: [AES128, Cryptology, DCT, DWT]
+tools: [Cryptology, DCT, DWT]
 image: ../img/projects/DIP.png
 # external_url: https://github.com/liver121888/NTUBME-2021-DIP-Assignments/tree/master/b07611001_FP
 description: A Qt application using AES128 implementing DCT, DWT, LSB steganography.
