@@ -1,11 +1,21 @@
-- name: Java
-  percentage: 90
-  color: danger
+# color: primary/secondary/success/danger/warning/info/light/dark (blue/gray/green/red/yellow/cyan/white/black)
 
 - name: Python
   percentage: 80
   color: warning
 
+- name: Java
+  percentage: 90
+  color: danger
+
 - name: C/C++
   percentage: 80
   color: secondary
+
+- name: MATLAB
+  percentage: 85
+  color: primary
+
+- name: Kotlin
+  percentage: 80
+  color: success

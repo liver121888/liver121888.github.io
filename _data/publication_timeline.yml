@@ -1,9 +1,10 @@
 - title: A Morphology Model for the Cyber-physical Operation of a Remote Swabbing Robot
-  location:  International Journal of iRobotics
+  author: Li-Wei Yang, Ping-Lang Yen
+  location: International Journal of iRobotics
   url: https://www.researchgate.net/publication/364590735_A_Morphology_Model_for_the_Cyber-physical_Operation_of_a_Remote_Swabbing_Robot
-  description: Morphing
+  description: Swabbing for the specimen is crucial in controlling the Covid-19 pandemic, but it occupies a lot of healthcare workers with dangerous (the risk of spit infection) and dull operations. Our lab developed a remote swabbing robot to complete the task safely and efficiently. Depth information is crucial for controlling the force in the swabbing process, ensuring patients' safety. Nevertheless, constrained by the oral cavity size, the sensors can only collect a part of the depth information. This research implements the Cyber-physical System concept on the robot to have comprehensive depth information. The system has an adaptable digital twin of the human oral cavity that can adapt according to the patient's oral shape, achieving precise swabbing. The precise swabbing makes the swabbing process comfortable and effective. This elementary study creates a statistically averaged model based on eight samples and contains the morphing error under 4 mm. Further study will focus on expanding the samples to minimize the error.
 
-- title: Analysis of RCM Mechanism and Counterbalance for a Swabbing Robot.
-  location: 2022 Chinese Society of Mechanical Engineers Annual Conference.
-  url: 
-  description: RCM test. include kinematicswab.mlx
+- title: Analysis of RCM Mechanism and Counterbalance for a Swabbing Robot
+  author: Lu-Chan Liu, Li-Wei Yang
+  location: 2022 Chinese Society of Mechanical Engineers Annual Conference
+  description: During the Covid-19 pandemic, it is crucial to know whether patient is infected with Covid-19 by taking PCR tests in the nasal cavity and oral cavity. When health care workers conducting the swabbing process, they are exposed to the virus and the risk of infection is increased. To protect the health care workers, it is extremely important to introduce remote, contactless testing to separate the workers from the patients. In this research, Inventor was used to analyze the RCM structure of the swabbing robots, and a new design using stretching springs as counterbalances to support the motors was proposed.

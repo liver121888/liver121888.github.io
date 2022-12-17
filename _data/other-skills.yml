@@ -1,11 +1,21 @@
-- name: MATLAB
-  percentage: 85
-  color: primary
+# color: primary/secondary/success/danger/warning/info/light/dark (blue/gray/green/red/yellow/cyan/white/black)
 
-- name: SOLIDWORKDS
+- name: ROS
+  percentage: 90
+  color: light
+
+- name: SOLIDWORKS
   percentage: 80
   color: success
 
-- name: Latex
-  percentage: 70
+- name: Isacc Gym
+  percentage: 60
   color: info
+
+- name: Unity
+  percentage: 60
+  color: danger
+
+- name: Git
+  percentage: 70
+  color: warning

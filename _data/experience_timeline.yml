@@ -1,12 +1,12 @@
 - title: Center for Artificial Intelligence and Advanced Robotics
   from: Feb. 2022
-  to: Sept. 2022
+  to: Oct. 2022
   description: Research Assistant <br>
                § Topic CHARM-Companion Healthcare Aid Robot Manager <br>
                § Skills Android, Java, Kotlin, SQLite <br>
-               • Used synchronous and asynchronous threading as well as callback functions to improve user experience. <br>
-               • Connect a smart watch (H2Plus) to the robot using BLE protocol, promoting the functionality of the robot. <br>
-               • Utilized SQLite to synchronize multiple users' physiological data to a remote server, and developed a multi-user switching feature on local robots. <br>
+               • Connected an ECG smartwatch to the robot using BLE protocol and utilized SQLite to synchronize multiple users' physiological data to a remote server. <br>
+               • Utilized synchronous and asynchronous threading to develop a surveillance module that follows and recognizes faces and interacts with people in voice to improve user experience. <br>
+               • Refined research proposal and informed consent form, which helped the research pass Institutional Review Board and advances into the clinical research phase. <br>
 
 - title: Robots and Medical Mechatronics Lab
   from: Jul. 2020
@@ -14,6 +14,6 @@
   description: Undergraduate Researcher <br>
                § Topic Swab Robot, Field Robot. <br>
                § Skills ROS, Python, SolidWorks, MATLAB. <br>
-               • Developed a specimen collection robot based on ROS. <br>
-               • Improved the specimen collection robot by designing a counterbalance and a lamp holder. <br>
-               • Implemented mobile robot techniques in the 2020 Biomechatronics Field Robot Competition. <br>
+               • Developed a statistical morphing oral model that fits the oral cavity in 3D Slicer and built a simulation environment in GAZEBO for the operator to swab for the oral specimen. <br>
+               • Won sponsorship from Taiwan's Ministry of Science and Technology (MOST). <br>
+               • Designed the torque of counterbalance in MATLAB, broadening the robot's workspace by 80% <br>
