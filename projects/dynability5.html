@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+
+<!--
+  portfolYOU Jekyll theme by Youssef Raafat
+  Free for personal and commercial use under the MIT license
+  https://github.com/YoussefRaafatNasry/portfolYOU
+-->
+
+<html lang="en" class="h-100">
+
+<head>
+
+  
+  
+  
+
+  
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Dynability5">
+  <meta property="og:description" content="Using an SVM classifier that recognizes filter-conditioned EMG pattern to control a 5 DoF manipulator.">
+  <meta property="og:image" content="../img/projects/Dyna.png">
+
+  <title>Dynability5</title>
+  <meta name="description" content="Using an SVM classifier that recognizes filter-conditioned EMG pattern to control a 5 DoF manipulator.">
+
+  <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
+
+  <!-- Theme style -->
+  <script src="/assets/js/theme.js"></script>
+
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.0/css/all.css">
+
+  <!-- Bootstrap CSS CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+
+  <!-- Animate CSS CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/assets/css/style.css">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-KF4ZYPGYNN"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-KF4ZYPGYNN');
+  </script>
+</head>
+
+<body class="h-100 d-flex flex-column">
+
+  <main class="flex-shrink-0 container mt-5">
+    <nav class="navbar navbar-expand-lg navbar-themed">
+
+  <a class="navbar-brand" href="/"><h5><b>Li-Wei Yang</b></h5></a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="fas fa-1x fa-bars text-themed"></i>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav ml-auto"><a class="nav-item nav-link " href="/about/">About</a>
+
+      <a class="nav-item nav-link active" href="/projects/">Projects</a>
+
+      <a class="nav-item nav-link " href="/publications/">Publications</a>
+
+      <a class="nav-item nav-link " href="/blog/">Blog</a>
+
+      <a class="nav-item nav-link " href="/cv/">CV</a>
+
+      <a class="nav-item nav-link " href="/hobby/">Hobby</a>
+
+      
+      
+      <a class="nav-item nav-link " href="https://github.com/liver121888/liver121888.github.io">
+        <i class="fab fa-1x fa-github">
+        </i>
+      </a>
+
+      <span id="theme-toggler" class="nav-item nav-link" role="button" onclick="toggleTheme()"></span>
+    </div>
+  </div>
+
+</nav>
+    <div class="col-lg-10 mx-auto mt-5 markdown-body">Tools: 
+    
+    <a class="text-decoration-none no-underline" href="/projects/tools#emg-signal-processing">
+      <span class="tag badge badge-pill text-primary border border-primary">EMG signal processing</span>
+    </a>
+    
+    <a class="text-decoration-none no-underline" href="/projects/tools#manipulator">
+      <span class="tag badge badge-pill text-primary border border-primary">Manipulator</span>
+    </a>
+    
+    <a class="text-decoration-none no-underline" href="/projects/tools#ml">
+      <span class="tag badge badge-pill text-primary border border-primary">ML</span>
+    </a>
+    <h1 id="dynability5"><em>Dynability5</em></h1>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/r5DFUHN26QI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<p><a href="https://github.com/liver121888/NTUME-2021-MMC-FinalProject">Code</a></p>
+
+<p>In this project, my teammates and I integrated an EMG signal processing circuit (including IA, HF, LP, NP, Voltage compression, Voltage shift) and a 5Dof manipulator (Dynamixel AX-12A) to deliver water bottles for disabled people. We trained the SVM classifier by modifying TA’s code, and eventually reached 90% of accuracy. Our classifier suffered from the ambient 60HZ noise, and thus the performance is not well. Future improvements would try to solve the noise issue.</p>
+
+<p><a href="https://github.com/visionbike/Digital-Bio-Signal-Analysis">TA’s original code</a></p>
+
+</div>
+  </main>
+  <footer class="mt-auto py-3 text-center">
+
+  <small class="text-muted mb-2">
+    <i class="fas fa-code"></i> with <i class="fas fa-heart"></i>/<i class="fa fa-bolt"></i>/<i class="fa fa-hourglass-half"></i> by <strong>Li-Wei Yang</strong>
+  </small>
+
+  <div class="container-fluid justify-content-center"><a class="social mx-1"  href="https://www.linkedin.com/in/dancedfsk8"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#007bb5'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-linkedin-in fa-1x"></i>
+    </a><a class="social mx-1"  href="mailto:liver121888@gmail.com"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#db4437'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fas fa-envelope fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.github.com/liver121888"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#333333'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-github fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.youtube.com/david121888"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#ff0000'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-youtube fa-1x"></i>
+    </a><a class="social mx-1"  href="https://medium.com/@liver121888"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#00ab6c'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-medium fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.facebook.com/david121888"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#3b5998'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-facebook fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.instagram.com/liver_1218"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#405de6'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-instagram fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.kaggle.com/b07611001"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#20beff'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-kaggle fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.gitlab.com/liver121888"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#fca326'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-gitlab fa-1x"></i>
+    </a><a class="social mx-1"  href="https://stackoverflow.com/u/15630120"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#f48024'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-stack-overflow fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.twitter.com/yumhxAZJkEOjMHZ"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#1da1f2'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-twitter fa-1x"></i>
+    </a>
+
+</div><small id="attribution">
+    theme <a href="https://github.com/YoussefRaafatNasry/portfolYOU">portfolYOU</a>
+  </small>
+
+</footer>
+
+  <!-- GitHub Buttons -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+<!-- jQuery CDN -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Popper.js CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+
+<!-- Bootstrap JS CDN -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<!-- wow.js CDN & Activation -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+<script> new WOW().init(); </script>
+
+<!-- Initialize all tooltips -->
+<script>
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+})
+</script>
+</body>
+
+</html>

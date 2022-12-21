@@ -1,0 +1,57 @@
+[
+  
+    {
+      "title"    : "Ball Delivery Cart",
+      "tools"     : "Remote control, Arduino, Raspberry Pi",
+      "url"      : "/projects/ball-delivery-cart"
+    } ,
+  
+    {
+      "title"    : "Dynability5",
+      "tools"     : "EMG signal processing, Manipulator, ML",
+      "url"      : "/projects/dynability5"
+    } ,
+  
+    {
+      "title"    : "KITTI Dataset Visualization",
+      "tools"     : "Self-driving cars, Visualization, ROS",
+      "url"      : "/projects/kitti-dataset-visualization"
+    } ,
+  
+    {
+      "title"    : "Kalman Filter",
+      "tools"     : "System control",
+      "url"      : "/projects/kalman-filter"
+    } ,
+  
+    {
+      "title"    : "Mobile Lost and Found",
+      "tools"     : "SLAM, BRISK, ROS, Mobile platform",
+      "url"      : "/projects/mlf6110"
+    } ,
+  
+    {
+      "title"    : "OpenAI Gym",
+      "tools"     : "Reinforcement Learning, ML",
+      "url"      : "/projects/openai-gym"
+    } ,
+  
+    {
+      "title"    : "Stable Diffusion",
+      "tools"     : "ML, AI Generated Content",
+      "url"      : "/projects/stable-diffusion"
+    } ,
+  
+    {
+      "title"    : "State Machine",
+      "tools"     : "ROS, Actionlib, SMACH, Finite State Machine",
+      "url"      : "/projects/state-machine"
+    } ,
+  
+    {
+      "title"    : "Steganography",
+      "tools"     : "Cryptology, DCT, DWT",
+      "url"      : "/projects/steganography"
+    } 
+  
+]

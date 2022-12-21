@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+
+<!--
+  portfolYOU Jekyll theme by Youssef Raafat
+  Free for personal and commercial use under the MIT license
+  https://github.com/YoussefRaafatNasry/portfolYOU
+-->
+
+<html lang="en" class="h-100">
+
+<head>
+
+  
+  
+  
+
+  
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Projects">
+  <meta property="og:description" content="I am migrating my personal website to gitlab.io for better jekyll support.  Please move to the new website for better experience. ">
+  <meta property="og:image" content="img/profile.jpg">
+
+  <title>Projects</title>
+  <meta name="description" content="I am migrating my personal website to gitlab.io for better jekyll support.  Please move to the new website for better experience. ">
+
+  <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
+
+  <!-- Theme style -->
+  <script src="/assets/js/theme.js"></script>
+
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.0/css/all.css">
+
+  <!-- Bootstrap CSS CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+
+  <!-- Animate CSS CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/assets/css/style.css">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-KF4ZYPGYNN"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-KF4ZYPGYNN');
+  </script>
+</head>
+
+<body class="h-100 d-flex flex-column">
+
+  <main class="flex-shrink-0 container mt-5">
+    <nav class="navbar navbar-expand-lg navbar-themed">
+
+  <a class="navbar-brand" href="/"><h5><b>Li-Wei Yang</b></h5></a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="fas fa-1x fa-bars text-themed"></i>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav ml-auto"><a class="nav-item nav-link " href="/about/">About</a>
+
+      <a class="nav-item nav-link active" href="/projects/">Projects</a>
+
+      <a class="nav-item nav-link " href="/publications/">Publications</a>
+
+      <a class="nav-item nav-link " href="/blog/">Blog</a>
+
+      <a class="nav-item nav-link " href="/cv/">CV</a>
+
+      <a class="nav-item nav-link " href="/hobby/">Hobby</a>
+
+      
+      
+      <a class="nav-item nav-link " href="https://github.com/liver121888/liver121888.github.io">
+        <i class="fab fa-1x fa-github">
+        </i>
+      </a>
+
+      <span id="theme-toggler" class="nav-item nav-link" role="button" onclick="toggleTheme()"></span>
+    </div>
+  </div>
+
+</nav>
+    <!-- Simple-Jekyll-Search https://github.com/christian-fei/Simple-Jekyll-Search -->
+
+<div class="input-group mt-5 px-3">
+  <input id="search-input" type="text" class="form-control search-box" placeholder="Search projects...">
+  <div class="input-group-append">
+    <span class="input-group-text border border-primary bg-primary text-white">
+      <i class="fas fa-search"></i>
+    </span>
+  </div>
+  <button class="btn btn-outline-primary ml-1" onclick="location.href = '/projects/tools';">
+    <i class="fas fa-tags"></i>
+  </button>
+</div>
+<ul class="px-3" id="results-container"></ul>
+
+<script src="https://cdn.rawgit.com/christian-fei/Simple-Jekyll-Search/master/dest/simple-jekyll-search.min.js"></script>
+<script>
+  var sjs = SimpleJekyllSearch({
+        searchInput: document.getElementById('search-input'),
+        resultsContainer: document.getElementById('results-container'),
+        searchResultTemplate: '<a href="{url}" class="list-group-item list-group-item-action">{title}</a>',
+        noResultsText: '<li class="list-group-item list-group-item-action disabled">No results found.</li>',
+        json: '/search_tools.json'
+      })
+</script>
+
+
+<div class="card-columns m-3 mt-5">
+
+  <!-- Remote Projects -->
+  
+
+  <!-- Local Projects -->
+  <div class="wow animated fadeIn" data-wow-delay=".15s">
+  <a href="/projects/ball-delivery-cart" class="project card text-themed"><img id="ball-delivery-cart-img" class="card-img-top" src="../img/projects/Ball Delivery Cart.png" alt="Ball Delivery Cart" /><div class="card-body">
+      <h5 id="ball-delivery-cart-name" class="card-title">Ball Delivery Cart
+      </h5>
+      <p id="ball-delivery-cart-desc" class="card-text">Raspberry pi and Arduino based mobile robot.</p>
+      <p id="ball-delivery-cart-tools" class="card-text"><span class="badge badge-pill text-primary border border-primary ml-1">Remote control</span><span class="badge badge-pill text-primary border border-primary ml-1">Arduino</span><span class="badge badge-pill text-primary border border-primary ml-1">Raspberry Pi</span></p>
+    </div>
+  </a>
+</div>
+
+  <div class="wow animated fadeIn" data-wow-delay=".15s">
+  <a href="/projects/dynability5" class="project card text-themed"><img id="dynability5-img" class="card-img-top" src="../img/projects/Dyna.png" alt="Dynability5" /><div class="card-body">
+      <h5 id="dynability5-name" class="card-title">Dynability5
+      </h5>
+      <p id="dynability5-desc" class="card-text">Using an SVM classifier that recognizes filter-conditioned EMG pattern to control a 5 DoF manipulator.</p>
+      <p id="dynability5-tools" class="card-text"><span class="badge badge-pill text-primary border border-primary ml-1">EMG signal processing</span><span class="badge badge-pill text-primary border border-primary ml-1">Manipulator</span><span class="badge badge-pill text-primary border border-primary ml-1">ML</span></p>
+    </div>
+  </a>
+</div>
+
+  <div class="wow animated fadeIn" data-wow-delay=".15s">
+  <a href="/projects/kitti-dataset-visualization" class="project card text-themed"><img id="kitti-dataset-visualization-img" class="card-img-top" src="../img/projects/KITTI.png" alt="KITTI Dataset Visualization" /><div class="card-body">
+      <h5 id="kitti-dataset-visualization-name" class="card-title">KITTI Dataset Visualization
+      </h5>
+      <p id="kitti-dataset-visualization-desc" class="card-text">Visualization of the KITTI dataset in ROS.</p>
+      <p id="kitti-dataset-visualization-tools" class="card-text"><span class="badge badge-pill text-primary border border-primary ml-1">Self-driving cars</span><span class="badge badge-pill text-primary border border-primary ml-1">Visualization</span><span class="badge badge-pill text-primary border border-primary ml-1">ROS</span></p>
+    </div>
+  </a>
+</div>
+
+  <div class="wow animated fadeIn" data-wow-delay=".15s">
+  <a href="/projects/kalman-filter" class="project card text-themed"><img id="kalman-filter-img" class="card-img-top" src="../img/projects/Kalman Filter/Kal.gif" alt="Kalman Filter" /><div class="card-body">
+      <h5 id="kalman-filter-name" class="card-title">Kalman Filter
+      </h5>
+      <p id="kalman-filter-desc" class="card-text">Implement Kalman Filter in MATLAB and Simulink.</p>
+      <p id="kalman-filter-tools" class="card-text"><span class="badge badge-pill text-primary border border-primary ml-1">System control</span></p>
+    </div>
+  </a>
+</div>
+
+  <div class="wow animated fadeIn" data-wow-delay=".15s">
+  <a href="/projects/mlf6110" class="project card text-themed"><img id="mobile-lost-and-found-img" class="card-img-top" src="../img/projects//MLF.png" alt="Mobile Lost and Found" /><div class="card-body">
+      <h5 id="mobile-lost-and-found-name" class="card-title">Mobile Lost and Found
+      </h5>
+      <p id="mobile-lost-and-found-desc" class="card-text">MLF6110 is a self-navigated object searching robot implementing BRISK algorithm and Gmapping.</p>
+      <p id="mobile-lost-and-found-tools" class="card-text"><span class="badge badge-pill text-primary border border-primary ml-1">SLAM</span><span class="badge badge-pill text-primary border border-primary ml-1">BRISK</span><span class="badge badge-pill text-primary border border-primary ml-1">ROS</span><span class="badge badge-pill text-primary border border-primary ml-1">Mobile platform</span></p>
+    </div>
+  </a>
+</div>
+
+  <div class="wow animated fadeIn" data-wow-delay=".15s">
+  <a href="/projects/openai-gym" class="project card text-themed"><img id="openai-gym-img" class="card-img-top" src="../img/projects/OpenAI Gym/panda_robot_ddpg.gif" alt="OpenAI Gym" /><div class="card-body">
+      <h5 id="openai-gym-name" class="card-title">OpenAI Gym
+      </h5>
+      <p id="openai-gym-desc" class="card-text">Using Stable Baseline3 library to solve 2 environment.</p>
+      <p id="openai-gym-tools" class="card-text"><span class="badge badge-pill text-primary border border-primary ml-1">Reinforcement Learning</span><span class="badge badge-pill text-primary border border-primary ml-1">ML</span></p>
+    </div>
+  </a>
+</div>
+
+  <div class="wow animated fadeIn" data-wow-delay=".15s">
+  <a href="/projects/stable-diffusion" class="project card text-themed"><img id="stable-diffusion-img" class="card-img-top" src="../img/projects/Stable Diffusion/Stable Diffusion.gif" alt="Stable Diffusion" /><div class="card-body">
+      <h5 id="stable-diffusion-name" class="card-title">Stable Diffusion
+      </h5>
+      <p id="stable-diffusion-desc" class="card-text">Stable Diffusion.</p>
+      <p id="stable-diffusion-tools" class="card-text"><span class="badge badge-pill text-primary border border-primary ml-1">ML</span><span class="badge badge-pill text-primary border border-primary ml-1">AI Generated Content</span></p>
+    </div>
+  </a>
+</div>
+
+  <div class="wow animated fadeIn" data-wow-delay=".15s">
+  <a href="/projects/state-machine" class="project card text-themed"><img id="state-machine-img" class="card-img-top" src="../img/projects/Smach.png" alt="State Machine" /><div class="card-body">
+      <h5 id="state-machine-name" class="card-title">State Machine
+      </h5>
+      <p id="state-machine-desc" class="card-text">A ROS application using Smach implement state machine for an analogy.</p>
+      <p id="state-machine-tools" class="card-text"><span class="badge badge-pill text-primary border border-primary ml-1">ROS</span><span class="badge badge-pill text-primary border border-primary ml-1">Actionlib</span><span class="badge badge-pill text-primary border border-primary ml-1">SMACH</span><span class="badge badge-pill text-primary border border-primary ml-1">Finite State Machine</span></p>
+    </div>
+  </a>
+</div>
+
+  <div class="wow animated fadeIn" data-wow-delay=".15s">
+  <a href="/projects/steganography" class="project card text-themed"><img id="steganography-img" class="card-img-top" src="../img/projects/DIP.png" alt="Steganography" /><div class="card-body">
+      <h5 id="steganography-name" class="card-title">Steganography
+      </h5>
+      <p id="steganography-desc" class="card-text">A Qt application using AES128 implementing DCT, DWT, LSB steganography.</p>
+      <p id="steganography-tools" class="card-text"><span class="badge badge-pill text-primary border border-primary ml-1">Cryptology</span><span class="badge badge-pill text-primary border border-primary ml-1">DCT</span><span class="badge badge-pill text-primary border border-primary ml-1">DWT</span></p>
+    </div>
+  </a>
+</div>
+
+  
+
+</div>
+
+  </main>
+  <footer class="mt-auto py-3 text-center">
+
+  <small class="text-muted mb-2">
+    <i class="fas fa-code"></i> with <i class="fas fa-heart"></i>/<i class="fa fa-bolt"></i>/<i class="fa fa-hourglass-half"></i> by <strong>Li-Wei Yang</strong>
+  </small>
+
+  <div class="container-fluid justify-content-center"><a class="social mx-1"  href="https://www.linkedin.com/in/dancedfsk8"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#007bb5'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-linkedin-in fa-1x"></i>
+    </a><a class="social mx-1"  href="mailto:liver121888@gmail.com"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#db4437'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fas fa-envelope fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.github.com/liver121888"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#333333'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-github fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.youtube.com/david121888"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#ff0000'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-youtube fa-1x"></i>
+    </a><a class="social mx-1"  href="https://medium.com/@liver121888"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#00ab6c'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-medium fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.facebook.com/david121888"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#3b5998'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-facebook fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.instagram.com/liver_1218"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#405de6'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-instagram fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.kaggle.com/b07611001"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#20beff'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-kaggle fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.gitlab.com/liver121888"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#fca326'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-gitlab fa-1x"></i>
+    </a><a class="social mx-1"  href="https://stackoverflow.com/u/15630120"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#f48024'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-stack-overflow fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.twitter.com/yumhxAZJkEOjMHZ"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#1da1f2'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-twitter fa-1x"></i>
+    </a>
+
+</div><small id="attribution">
+    theme <a href="https://github.com/YoussefRaafatNasry/portfolYOU">portfolYOU</a>
+  </small>
+
+</footer>
+
+  <!-- GitHub Buttons -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+<!-- jQuery CDN -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Popper.js CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+
+<!-- Bootstrap JS CDN -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<!-- wow.js CDN & Activation -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+<script> new WOW().init(); </script>
+
+<!-- Initialize all tooltips -->
+<script>
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+})
+</script>
+</body>
+
+</html>

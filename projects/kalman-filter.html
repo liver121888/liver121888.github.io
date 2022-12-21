@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+
+<!--
+  portfolYOU Jekyll theme by Youssef Raafat
+  Free for personal and commercial use under the MIT license
+  https://github.com/YoussefRaafatNasry/portfolYOU
+-->
+
+<html lang="en" class="h-100">
+
+<head>
+
+  
+  
+  
+
+  
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Kalman Filter">
+  <meta property="og:description" content="Implement Kalman Filter in MATLAB and Simulink.">
+  <meta property="og:image" content="../img/projects/Kalman Filter/Kal.gif">
+
+  <title>Kalman Filter</title>
+  <meta name="description" content="Implement Kalman Filter in MATLAB and Simulink.">
+
+  <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
+
+  <!-- Theme style -->
+  <script src="/assets/js/theme.js"></script>
+
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.0/css/all.css">
+
+  <!-- Bootstrap CSS CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+
+  <!-- Animate CSS CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/assets/css/style.css">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-KF4ZYPGYNN"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-KF4ZYPGYNN');
+  </script>
+</head>
+
+<body class="h-100 d-flex flex-column">
+
+  <main class="flex-shrink-0 container mt-5">
+    <nav class="navbar navbar-expand-lg navbar-themed">
+
+  <a class="navbar-brand" href="/"><h5><b>Li-Wei Yang</b></h5></a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="fas fa-1x fa-bars text-themed"></i>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav ml-auto"><a class="nav-item nav-link " href="/about/">About</a>
+
+      <a class="nav-item nav-link active" href="/projects/">Projects</a>
+
+      <a class="nav-item nav-link " href="/publications/">Publications</a>
+
+      <a class="nav-item nav-link " href="/blog/">Blog</a>
+
+      <a class="nav-item nav-link " href="/cv/">CV</a>
+
+      <a class="nav-item nav-link " href="/hobby/">Hobby</a>
+
+      
+      
+      <a class="nav-item nav-link " href="https://github.com/liver121888/liver121888.github.io">
+        <i class="fab fa-1x fa-github">
+        </i>
+      </a>
+
+      <span id="theme-toggler" class="nav-item nav-link" role="button" onclick="toggleTheme()"></span>
+    </div>
+  </div>
+
+</nav>
+    <div class="col-lg-10 mx-auto mt-5 markdown-body">Tools: 
+    
+    <a class="text-decoration-none no-underline" href="/projects/tools#system-control">
+      <span class="tag badge badge-pill text-primary border border-primary">System control</span>
+    </a>
+    <h1 id="kalman-filter"><em>Kalman Filter</em></h1>
+
+<p>Kalman Filter is widely used in sensor fusion and estimation topic.</p>
+
+<p>In this project, I followed the <a href="https://youtube.com/playlist?list=PLn8PRpmsu08pzi6EMiYnR-076Mh-q3tWr">MATLAB Tech Talks tutorials</a> to implement Kalman Filter and EKF in the MATLAB to estimate the motion of a pendulum.</p>
+
+<p><a href="https://liver121888.github.io/MathWorks-learning/Kalman_Filter_Virtual_Lab.html">Code</a></p>
+
+<p>The whole system is shown as below:</p>
+
+<p><img src="../img/projects/Kalman Filter/Block.png" alt="Block Diagram" /></p>
+
+<p>If the pendulum swings at small angle and the input torque is zero, the system can be approximately linear. Also, there are noise exist in both processing and measurement.</p>
+
+<p><img src="../img/projects/Kalman Filter/Measured.gif" alt="Measurement" /></p>
+
+<p>We could implement a Kalman filter using the model and the measurement input, to estimate the pendulum motion in a less noisy way.</p>
+
+<p><img src="../img/projects/Kalman Filter/Kal.gif" alt="Kalman Filter" /></p>
+
+<p>However, as the initial angle of the pendulum increases to 55°, the linear Kalman Filter would start to lose accuracy.</p>
+
+<p><img src="../img/projects/Kalman Filter/NP.png" alt="Nonlinear" /></p>
+
+<p>To address the nonlinearity in the system, we could use Extended-Kalman Filter to linearize the system in place.</p>
+
+<p><img src="../img/projects/Kalman Filter/EKF Wave.png" alt="EKF Wave" /></p>
+
+<p>Demux 1 is the actual response, Demux 2 is the raw measured data (tampered by noise), Demux 3 is the estimate of the linear Kalman Filter, and Demux 4 is the result from the Extended-Kalman Filter.</p>
+
+<p>Let’s take a closer look.</p>
+
+<p><img src="../img/projects/Kalman Filter/EKF Detail.png" alt="EKF Wave" /></p>
+
+<p>The green estimate from the EKF is closer to the actual response (Yellow) than the measurement (Blue) does. Well done!</p>
+
+<p>In the tutorial, we also tested the effect of filter’s initial estimate and the filter’s noise estimate. After the tutorial, I have a better understanding toward Kalman Filter, including the pros and cons of Kalman Filter, EKF, and Unscented Kalman filter.</p>
+
+</div>
+  </main>
+  <footer class="mt-auto py-3 text-center">
+
+  <small class="text-muted mb-2">
+    <i class="fas fa-code"></i> with <i class="fas fa-heart"></i>/<i class="fa fa-bolt"></i>/<i class="fa fa-hourglass-half"></i> by <strong>Li-Wei Yang</strong>
+  </small>
+
+  <div class="container-fluid justify-content-center"><a class="social mx-1"  href="https://www.linkedin.com/in/dancedfsk8"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#007bb5'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-linkedin-in fa-1x"></i>
+    </a><a class="social mx-1"  href="mailto:liver121888@gmail.com"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#db4437'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fas fa-envelope fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.github.com/liver121888"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#333333'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-github fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.youtube.com/david121888"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#ff0000'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-youtube fa-1x"></i>
+    </a><a class="social mx-1"  href="https://medium.com/@liver121888"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#00ab6c'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-medium fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.facebook.com/david121888"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#3b5998'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-facebook fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.instagram.com/liver_1218"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#405de6'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-instagram fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.kaggle.com/b07611001"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#20beff'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-kaggle fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.gitlab.com/liver121888"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#fca326'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-gitlab fa-1x"></i>
+    </a><a class="social mx-1"  href="https://stackoverflow.com/u/15630120"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#f48024'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-stack-overflow fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.twitter.com/yumhxAZJkEOjMHZ"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#1da1f2'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-twitter fa-1x"></i>
+    </a>
+
+</div><small id="attribution">
+    theme <a href="https://github.com/YoussefRaafatNasry/portfolYOU">portfolYOU</a>
+  </small>
+
+</footer>
+
+  <!-- GitHub Buttons -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+<!-- jQuery CDN -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Popper.js CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+
+<!-- Bootstrap JS CDN -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<!-- wow.js CDN & Activation -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+<script> new WOW().init(); </script>
+
+<!-- Initialize all tooltips -->
+<script>
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+})
+</script>
+</body>
+
+</html>

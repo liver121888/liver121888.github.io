@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+
+<!--
+  portfolYOU Jekyll theme by Youssef Raafat
+  Free for personal and commercial use under the MIT license
+  https://github.com/YoussefRaafatNasry/portfolYOU
+-->
+
+<html lang="en" class="h-100">
+
+<head>
+
+  
+  
+  
+
+  
+
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="OpenAI Gym">
+  <meta property="og:description" content="Using Stable Baseline3 library to solve 2 environment.">
+  <meta property="og:image" content="../img/projects/OpenAI Gym/panda_robot_ddpg.gif">
+
+  <title>OpenAI Gym</title>
+  <meta name="description" content="Using Stable Baseline3 library to solve 2 environment.">
+
+  <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.ico">
+
+  <!-- Theme style -->
+  <script src="/assets/js/theme.js"></script>
+
+  <!-- Font Awesome CDN -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.0/css/all.css">
+
+  <!-- Bootstrap CSS CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+
+  <!-- Animate CSS CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/assets/css/style.css">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-KF4ZYPGYNN"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-KF4ZYPGYNN');
+  </script>
+</head>
+
+<body class="h-100 d-flex flex-column">
+
+  <main class="flex-shrink-0 container mt-5">
+    <nav class="navbar navbar-expand-lg navbar-themed">
+
+  <a class="navbar-brand" href="/"><h5><b>Li-Wei Yang</b></h5></a>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <i class="fas fa-1x fa-bars text-themed"></i>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav ml-auto"><a class="nav-item nav-link " href="/about/">About</a>
+
+      <a class="nav-item nav-link active" href="/projects/">Projects</a>
+
+      <a class="nav-item nav-link " href="/publications/">Publications</a>
+
+      <a class="nav-item nav-link " href="/blog/">Blog</a>
+
+      <a class="nav-item nav-link " href="/cv/">CV</a>
+
+      <a class="nav-item nav-link " href="/hobby/">Hobby</a>
+
+      
+      
+      <a class="nav-item nav-link " href="https://github.com/liver121888/liver121888.github.io">
+        <i class="fab fa-1x fa-github">
+        </i>
+      </a>
+
+      <span id="theme-toggler" class="nav-item nav-link" role="button" onclick="toggleTheme()"></span>
+    </div>
+  </div>
+
+</nav>
+    <div class="col-lg-10 mx-auto mt-5 markdown-body">Tools: 
+    
+    <a class="text-decoration-none no-underline" href="/projects/tools#reinforcement-learning">
+      <span class="tag badge badge-pill text-primary border border-primary">Reinforcement Learning</span>
+    </a>
+    
+    <a class="text-decoration-none no-underline" href="/projects/tools#ml">
+      <span class="tag badge badge-pill text-primary border border-primary">ML</span>
+    </a>
+    <h1 id="openai-gym"><em>OpenAI Gym</em></h1>
+
+<p>OpenAI <a href="https://github.com/openai/gym">Gym</a> is an open source Python library providing environment for reinforcement learning algorithm. It will gradually transfer to <a href="https://github.com/Farama-Foundation/Gymnasium">Gymnasium</a> library, I will try the Gymnasium in the future.</p>
+
+<p><a href="https://github.com/DLR-RM/stable-baselines3">Stable Baseline3</a> is a set of reliable implementations of reinforcement learning algorithms in PyTorch. To support Gym version &gt;= 0.26, you will need the pull request <a href="https://github.com/DLR-RM/stable-baselines3/pull/780">here</a>.</p>
+
+<p>In this project, I followed the <a href="https://youtube.com/playlist?list=PL0sla3wvhSnblecvfPdyQXBJKGFeBxEkZ">tutorial</a> to implement DQN (Deep Reinforcement Learning) and DDPG (Deep Deterministic Policy Gradient) in different environment.</p>
+
+<h2 id="highway-fast-v0">highway-fast-v0</h2>
+
+<p><a href="https://drive.google.com/file/d/1IhY5i8w3Cu1LJFWULOT_HyAW95JQb0Q1/view?usp=sharing">Code</a></p>
+
+<p>The first task is on a highway environment, the car needs to avoid crashing into other cars by switching to different lanes smoothly.</p>
+
+<p>If we let the car idle, it will crash.</p>
+
+<p><img src="../img/projects/OpenAI Gym/highway_idle.gif" alt="Original" /></p>
+
+<p>After using DQN training for 50000 steps, the best model success rate is 0.84 out of 25 tests.</p>
+
+<p><img src="../img/projects/OpenAI Gym/highway_dqn.gif" alt="DQN" /></p>
+
+<p>The learning curve and the evaluation result.</p>
+
+<p><img src="../img/projects/OpenAI Gym/rollout.png" alt="rollout" /></p>
+
+<p><img src="../img/projects/OpenAI Gym/eval.png" alt="eval" /></p>
+
+<h2 id="pandareach-v2">PandaReach-v2</h2>
+
+<p><a href="https://www.kaggle.com/code/b07611001/panda-robot-ddpg">Code</a></p>
+
+<p>The second task is the localization of a Panda robot arm. Hindsight Experience Replay Buffer is added to help the robot learn sparse reward better.</p>
+
+<p>Let’s first move the arm using intuition.</p>
+
+<p><img src="../img/projects/OpenAI Gym/panda_robot_original.gif" alt="Original" /></p>
+
+<p>After using DDPG training for 300000 steps, the final success rate is 0.97 out of 30 tests.</p>
+
+<p><img src="../img/projects/OpenAI Gym/panda_robot_ddpg.gif" alt="DDPG" /></p>
+
+<p>There are still vibration after reaching the goal, future work would focus on imposing speed limit or combine traditional control to improve the performance and increase safety.</p>
+
+</div>
+  </main>
+  <footer class="mt-auto py-3 text-center">
+
+  <small class="text-muted mb-2">
+    <i class="fas fa-code"></i> with <i class="fas fa-heart"></i>/<i class="fa fa-bolt"></i>/<i class="fa fa-hourglass-half"></i> by <strong>Li-Wei Yang</strong>
+  </small>
+
+  <div class="container-fluid justify-content-center"><a class="social mx-1"  href="https://www.linkedin.com/in/dancedfsk8"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#007bb5'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-linkedin-in fa-1x"></i>
+    </a><a class="social mx-1"  href="mailto:liver121888@gmail.com"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#db4437'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fas fa-envelope fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.github.com/liver121888"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#333333'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-github fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.youtube.com/david121888"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#ff0000'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-youtube fa-1x"></i>
+    </a><a class="social mx-1"  href="https://medium.com/@liver121888"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#00ab6c'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-medium fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.facebook.com/david121888"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#3b5998'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-facebook fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.instagram.com/liver_1218"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#405de6'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-instagram fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.kaggle.com/b07611001"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#20beff'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-kaggle fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.gitlab.com/liver121888"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#fca326'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-gitlab fa-1x"></i>
+    </a><a class="social mx-1"  href="https://stackoverflow.com/u/15630120"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#f48024'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-stack-overflow fa-1x"></i>
+    </a><a class="social mx-1"  href="https://www.twitter.com/yumhxAZJkEOjMHZ"
+       style="color: #6c757d"
+       onMouseOver="this.style.color='#1da1f2'"
+       onMouseOut="this.style.color='#6c757d'">
+      <i class="fab fa-twitter fa-1x"></i>
+    </a>
+
+</div><small id="attribution">
+    theme <a href="https://github.com/YoussefRaafatNasry/portfolYOU">portfolYOU</a>
+  </small>
+
+</footer>
+
+  <!-- GitHub Buttons -->
+<script async defer src="https://buttons.github.io/buttons.js"></script>
+
+<!-- jQuery CDN -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Popper.js CDN -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+
+<!-- Bootstrap JS CDN -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+<!-- wow.js CDN & Activation -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.js"></script>
+<script> new WOW().init(); </script>
+
+<!-- Initialize all tooltips -->
+<script>
+$(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+})
+</script>
+</body>
+
+</html>
