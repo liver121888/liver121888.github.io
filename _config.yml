@@ -1,7 +1,7 @@
 ### Site Settings ###
 title               : Li-Wei Yang
-description         : An B.S. graduate in Biomechatronics Engineering from National Taiwan University, Taiwan. <br>
-                      Zeal for robotics, research interests are Simulation, Reinforcement Learning, Computer Vision, and Robotic Motion Planning.
+description         : I am migrating my personal website to gitlab.io for better jekyll support. <br>
+                      Please move to the <a href="https://liver121888.gitlab.io/">new website</a> for better experience. <br>
 baseurl             : "" # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : liver121888/liver121888.github.io # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : YoussefRaafatNasry/portfolYOU
